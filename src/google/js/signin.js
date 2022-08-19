@@ -1,13 +1,13 @@
-const googleLogin = document.querySelector(".main-login");
-const googleLoginInput = document.querySelector(".signin-input");
-const googleLoginLable = document.querySelector(".signin-label");
+const login = document.querySelector(".main-login");
+const loginInput = document.querySelector(".signin-input");
+const loginLable = document.querySelector(".signin-label");
 
-googleLoginInput.onfocus = () => {
-    googleLoginLable.classList.toggle("onfocus-label");
-    googleLogin.classList.toggle("onfocus-input");
+loginInput.onfocus = () => {
+    loginLable.classList.toggle("onfocus-label");
+    login.classList.toggle("onfocus-input");
 }
 
-googleLoginInput.onblur = () => {
-    googleLoginLable.classList.toggle("onfocus-label");
-    googleLogin.classList.toggle("onfocus-input");
+loginInput.onblur = () => {
+    loginLable.classList.toggle("onfocus-label");
+    login.classList.toggle("onfocus-input");
 }

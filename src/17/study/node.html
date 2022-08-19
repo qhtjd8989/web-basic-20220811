@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>노드</title>
+    <style>
+        .box {
+            border: 1px solid black;
+
+            width: 100px;
+            height: 100px;
+
+            background-color: #fafafa;
+
+
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let body = document.querySelector("body");
+
+        let box = document.createElement("div");
+        const boxClass = document.createAttribute("class");
+        boxClass.value = "box";
+        box.classList.add("box");
+        const text = document.createTextNode("텍스트 노드");
+
+        body.appendChild(box);
+        box.appendChild(text);
+
+        body.innerHTML += `
+            <div class="box">${10*20}</div>
+        `;
+
+        body = document.querySelectorAll("body");
+        box = document.querySelectorAll(".box")[1];
+
+        box.parentNode.removeChild(box);
+    </script>
+</body>
+</html>
