@@ -35,22 +35,61 @@
 }
 
 .main-login {
-    margin-top: 32px;
-}
+    position: relative;
 
-.signin-input {
-    margin: 1px 1px 1px 0px;
-    padding: 13px 15px;
+    margin: 30px 1px 0px 1px;
 
-    border: 1px solid #dbdbdb;
+    border: 1px solid #dddddd;
     border-radius: 4px;
-    outline-color: #1a73e8;
+
+    padding: 13px 15px;
 
     width: 366px;
     height: 54px;
+}
 
-    font-size: 18px;
-    color: #202124;
+.signin-label {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+
+    font-size: 17px;
+    color: #5f6368;
+    cursor: text;
+
+    transition: all 100ms linear;
+}
+
+.onfocus-label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+
+    transition: all 100ms linear;
+
+    padding: 0px 5px;
+
+    font-size: 13px;
+    color: #1a73e8;
+
+    background-color: white;
+
+}
+
+.signin-input {
+    border: none;
+    outline: none;
+
+    width: 100%;
+    height: 100%;
+
+    font-size: 17px;
+
+    cursor: text;
+}
+
+.onfocus-input {
+    border: 2px solid #1a73e8;
 }
 
 .forget-email {
@@ -78,7 +117,7 @@
     color: #5f6368;
 }
 
-.signup-or-next {
+.signup-and-next {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,6 +183,3 @@ footer {
     font-size: 12px;
     color: #757575 ;
 }
-
-
-
