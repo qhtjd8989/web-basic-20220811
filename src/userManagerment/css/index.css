@@ -1,0 +1,74 @@
+.list-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 100px;
+
+    width: 50%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid #dbdbdb;
+
+    padding: 20px 20px;
+
+    width: 300px;
+    height: 300px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 10px;
+
+    font-weight: 700;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+
+.save-button {
+    border: none;
+    border-radius: 3px;
+    
+    height: 25px;
+    
+    background-color: rgb(26, 115, 232);
+
+    font-size: 16px;
+    color: white;
+
+    cursor: pointer;
+}
+
+.list {
+    padding-top: 100px;
+
+    width: 50%;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid #dbdbdb;
+
+    padding: 20px 20px;
+
+    width: 700px;
+    height: 400px;
+}
+
+
+

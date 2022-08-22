@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    
+
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #dbdbdb;
+
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dbdbdb;
+}
